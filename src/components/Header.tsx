@@ -72,7 +72,7 @@ export function Header() {
             </Text>
           </Box>
 
-          <Avatar size="md" name="Breno Angelo" src="https://github.com/brenoangelo1.png"/>
+          <Avatar size="md" name="Breno Angelo" src="https://github.com/brenoangelo.png"/>
         </Flex>
       </Flex>
     </Flex>
