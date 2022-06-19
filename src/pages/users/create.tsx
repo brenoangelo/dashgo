@@ -44,17 +44,12 @@ export default function CreateUser() {
   const { errors } = formState;
 
   const handleCreateUser: SubmitHandler<CreateUserData> = async (values) => {
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-
-    console.log(values);
+    await new Promise((resolve) => setTimeout(resolve, 2000)); 
   };
-
-  console.log(errors)
 
   return (
     <Box>
       <Header />
-
       <Flex w="100%" my="6" maxWidth={1480} mx="auto" px="6">
         <Sidebar />
 
